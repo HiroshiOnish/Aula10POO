@@ -31,8 +31,41 @@ public class Pessoa {
 
     public String getNome() {
         return nome;
+    }
 
+    public void setCpf(String cpf) {
+        this.cpf = cpf;
+    }
 
+    public String getCpf() {
+        return cpf;
+    }
+
+    public void setIdade(int idade) {
+        this.idade = idade;
+    }
+
+    public int getIdade() {
+        return idade;
+    }
+
+    public void setWhatsapp(String whatsapp) {
+        this.whatsapp = whatsapp;
+    }
+
+    public String getWhatsapp() {
+        return whatsapp;
+    }
+
+    public void apresentar(){
+        System.out.println(nome);
+        System.out.println(cpf);
+        System.out.println(idade);
+        System.out.println(whatsapp);
+    }
+
+    public String getApresentacao(){
+        return (nome+","+cpf+","+idade+","+cpf);
     }
 
 }

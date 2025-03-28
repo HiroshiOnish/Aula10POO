@@ -7,11 +7,12 @@ public class Main {
         Pessoa p3 = new Pessoa("Marcia", "48", 111, "0000");
 
         p1.setNome("Hiroshi");
-        p2.setNome("Hiroshi Onishi");
-        p3.setNome("Marcia Onishi");
+        p1.setCpf("123456789");
+        p1.setIdade(37);
+        p1.setWhatsapp("12365478");
 
-        System.out.println(p1.getNome());
-        System.out.println(p2.getNome());
-        System.out.println(p3.getNome());
+        p1.apresentar();
+        System.out.println(p1.getApresentacao());
+
     }
 }
