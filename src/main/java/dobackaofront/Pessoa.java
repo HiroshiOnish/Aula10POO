@@ -3,7 +3,7 @@ package dobackaofront;
 public class Pessoa {
     //atributos
     private String nome;
-    private String cpf:
+    private String cpf;
     private int idade;
     private String whatsapp;
 
@@ -24,6 +24,16 @@ public class Pessoa {
 
     }
     //metodos
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public String getNome() {
+        return nome;
+
+
+    }
 
 }
 
